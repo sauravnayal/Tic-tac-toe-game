@@ -62,9 +62,7 @@ body{
 .player2{
     color: #FC5130;
 }
-.game-board{
-    border: 2px solid white;
-}
+
 .box{
     width: 60px;
     height: 60px;
@@ -74,7 +72,17 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 3px;
     
+}
+.box:hover{
+    transform: scale(1.09);
+}
+.turnX-hover:hover{
+    background-color: #30BCED;
+}
+.turnY-hover:hover{
+    background-color: #FC5130;
 }
 .row{
     display: flex;
