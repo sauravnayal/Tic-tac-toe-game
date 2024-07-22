@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;    */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    background-color: #050401;
+    color: #FFFAFF;
+    /* padding: 20px 20px; */
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #303036;
+    border-radius: 5px;
+}
+
+.level{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.score-board{
+    display: flex;
+    /* gap: 40px; */
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 40px; */
+}
+.score-board div{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    font-size: 25px;
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 1px 20px ;
+
+}
+.player1{
+    color:#30BCED
+}
+.player2{
+    color: #FC5130;
+}
+.game-board{
+    
+}
+.box{
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    margin: 1px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.row{
+    display: flex;
+}
+.turnX{
+    border-bottom:2px solid #30BCED;
+}
+.turnY{
+    border-bottom: 2px solid #FC5130;
+}
+#level{
+    width: 290px;
+    height: 30px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+#new-game{
+    /* width: 100px; */
+    padding: 10px 30px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+#new-game:hover{
+    background-color: aliceblue;
+    transform: scaleX(1.1);
+}
+h1{
+    margin-bottom: 10px;
+}
+.winner{
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
