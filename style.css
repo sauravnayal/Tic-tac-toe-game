@@ -63,7 +63,7 @@ body{
     color: #FC5130;
 }
 .game-board{
-    
+    border: 2px solid white;
 }
 .box{
     width: 60px;
