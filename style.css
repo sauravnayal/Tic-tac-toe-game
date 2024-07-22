@@ -57,10 +57,12 @@ body{
 
 }
 .player1{
-    color:#30BCED
+    color:#30BCED;
+    cursor: pointer;
 }
 .player2{
     color: #FC5130;
+    cursor: pointer;
 }
 
 .box{
