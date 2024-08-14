@@ -70,16 +70,16 @@ body{
     height: 60px;
     border: 3px solid black;
     margin: 1px 1px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
     cursor: pointer;
     border-radius: 3px;
     
 }
-.box:hover{
-    transform: scale(1.09);
-}
+
 .turnX-hover:hover{
     background-color: #30BCED;
 }
@@ -122,4 +122,9 @@ h1{
     font-weight: 700;
     font-size: 15px;
     letter-spacing: 2px;
+}
+
+.active{
+    font-weight: 800;
+    font-size: 2rem;
 }
